@@ -1,6 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
-  background-color: #fffdf8;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff8f0;
   color: #333;
   margin: 0;
   padding: 0;
@@ -8,78 +8,64 @@ body {
 }
 
 header {
-  background-color: #ffe8c7;
-  color: #222;
   text-align: center;
-  padding: 40px 20px;
-  border-bottom: 3px solid #f7c97f;
+  padding: 20px;
+  background: #ffddaa;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-header h1 {
-  font-size: 2.2em;
-  margin-bottom: 10px;
+h1 {
+  color: #d35400;
 }
 
-header p {
-  font-size: 1.1em;
-  color: #444;
-}
-
-main {
-  max-width: 800px;
+.recipe {
+  max-width: 700px;
   margin: 30px auto;
-  background: #fff;
-  padding: 25px;
-  border-radius: 16px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.recipe-image {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  color: #e07b00;
-  margin-top: 30px;
+  color: #d35400;
+  margin-top: 20px;
 }
 
 ul, ol {
   margin-left: 20px;
 }
 
-li {
-  margin-bottom: 8px;
-}
-
-.cta {
-  font-size: 1.1em;
-  color: #222;
-  background: #fff3da;
-  border-left: 4px solid #e07b00;
-  padding: 15px;
-  border-radius: 10px;
+.ad-box {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
-.recipe-img {
-  text-align: center;
-  margin-top: 20px;
+.ad-button {
+  background-color: #d35400;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
 }
 
-.recipe-img img {
-  max-width: 100%;
-  border-radius: 16px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+.ad-button:hover {
+  background-color: #b84300;
 }
 
 footer {
   text-align: center;
-  background: #ffe8c7;
-  padding: 20px;
-  color: #333;
-  margin-top: 30px;
-  border-top: 3px solid #f7c97f;
-}
-
-.ad-banner, #inpage-ad {
-  margin: 25px 0;
-  text-align: center;
+  padding: 15px;
+  background-color: #ffddaa;
+  margin-top: 40px;
+  font-size: 14px;
 }
 
