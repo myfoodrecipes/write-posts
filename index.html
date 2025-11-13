@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <meta name="monetag" content="5b029384b1906f521602c7932fdfacd8">
+  <meta name="monetag" content="5b029384b1906f521602c7932fdfacd8"/>
 <head>
   <!-- Monetag: Popunder (Onclick) -->
   <script>(function(s){s.dataset.zone='10183315',s.src='https://al5sm.com/tag.min.js'})([document.documentElement, document.body].filter(Boolean).pop().appendChild(document.createElement('script')))</script>
@@ -11,6 +11,19 @@
   <title>Homemade Alfredo Pasta Recipe</title>
   <link rel="stylesheet" href="style.css" />
   <script src="script.js" defer></script>
+  
+   default="$(color) none repeat scroll top left"  value="$(color) url(https://themes.googleusercontent.com/image?id=L1lcAxxz0CLgsDzixEprHJ2F38TyEjCyE3RSAjynQDks0lT1BDc1OxXKaTEdLc89HPvdB11X9FDw) no-repeat scroll top center /* Credit: Michael Elkan (http://www.offset.com/photos/394244) */;"/>
+  <Variable name="body.background.color" description="Body background color"
+      type="color"
+      default="#eee"  value="#eeeeee"/>
+  <Variable name="posts.background.color" description="Post background color"
+      type="color"
+      default="#fff"  value="#ffffff"/>
+  <Variable name="body.background.blur" description="Background blur"
+      type="length"
+      min="0px"
+      max="50px"
+      default="0px"  value="0px"/>
 
   <!-- Monetag Script -->
 </head>
@@ -22,7 +35,7 @@
 
   <main>
     <section class="recipe">
-      <img src="images/Imaje1.jpg" alt="Delicious Alfredo Pasta" class="recipe-img">
+      <img src="images/Imaje1.jpg" alt="Delicious Alfredo Pasta">
 
       <h2>Ingredients:</h2>
       <ul>
@@ -45,7 +58,7 @@
         <li>Mix in the pasta and combine well.</li>
         <li>Serve hot and garnish with parsley.</li>
       </ol>
-      <img src="images/Imaje2.jpg" alt="Delicious Alfredo Pasta" class="recipe-img">
+      <img src="images/Imaje2.jpg" alt="Delicious Alfredo Pasta">
       <h2>Tips for the Best Alfredo Pasta:</h2>
       <ul>
         <li>Add grilled chicken or shrimp for extra protein.</li>
@@ -62,6 +75,69 @@
     </section>
   </main>
 
+  .avatar-image-container svg,.comment .avatar-image-container .avatar-icon{
+border-radius:50%;
+border:solid 1px $(posts.icons.color);
+box-sizing:border-box;
+fill:$(posts.icons.color);
+height:35px;
+margin:0;
+padding:7px;
+width:35px
+}
+.comment .comment-block{
+margin-top:10px;
+margin-$startSide:60px;
+padding-bottom:0
+}
+#comments .comment-author-header-wrapper{
+margin-left:40px
+}
+#comments .comment .thread-expanded .comment-block{
+padding-bottom:20px
+}
+#comments .comment .comment-header .user,#comments .comment .comment-header .user a{
+color:$(posts.title.color);
+font-style:normal;
+font-weight:700
+}
+#comments .comment .comment-actions{
+bottom:0;
+margin-bottom:15px;
+position:absolute
+}
+#comments .comment .comment-actions>*{
+margin-right:8px
+}
+#comments .comment .comment-header .datetime{
+bottom:0;
+color:rgba($(posts.title.color.red),$(posts.title.color.green),$(posts.title.color.blue),.54);
+display:inline-block;
+font-size:13px;
+font-style:italic;
+margin-$startSide:8px
+}
+#comments .comment .comment-footer .comment-timestamp a,#comments .comment .comment-header .datetime a{
+color:rgba($(posts.title.color.red),$(posts.title.color.green),$(posts.title.color.blue),.54)
+}
+#comments .comment .comment-content,.comment .comment-body{
+margin-top:12px;
+word-break:break-word
+}
+.comment-body{
+margin-bottom:12px
+}
+#comments.embed[data-num-comments="0"]{
+border:0;
+margin-top:0;
+padding-top:0
+}
+#comments.embed[data-num-comments="0"] #comment-post-message,#comments.embed[data-num-comments="0"] div.comment-form>p,#comments.embed[data-num-comments="0"] p.comment-footer{
+display:none
+}
+#comment-editor-src{
+display:none
+  
   <footer>
     <p>© 2025 MyFoodRecipes. All Rights Reserved.</p>
   </footer>
